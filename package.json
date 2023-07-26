@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "platformatic start",
+    "clean": "rm -fr ./dist",
+    "build": "platformatic compile"
+  },
+  "devDependencies": {
+    "fastify": "^4.20.0",
+    "typescript": "~5.1.6"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.8.0",
+    "@fastify/swagger-ui": "^1.9.3",
+    "fastify-type-provider-zod": "^1.1.9",
+    "platformatic": "^0.32.0",
+    "zod": "^3.21.4"
+  },
+  "engines": {
+    "node": "^18.8.0"
+  }
+}
